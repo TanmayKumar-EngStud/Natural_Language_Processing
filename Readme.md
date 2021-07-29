@@ -1,3 +1,1 @@
-I am following a youtube video playlist for learning NLP 
-
-I am also learning how to use Spacy and NLTK in order modules in python
+This repository holds all the python programs that I made while understanding the NLP and Deep Learning concepts.
