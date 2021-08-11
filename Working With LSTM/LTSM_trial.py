@@ -1,10 +1,8 @@
-from numpy.matrixlib.defmatrix import matrix
 import spacy
 import os
 import re
 from tensorflow.python.keras.backend import categorical_crossentropy
 
-from tensorflow.python.keras.layers.core import Activation
 os.system('clear')
 
 nlp = spacy.load('en')
@@ -61,7 +59,7 @@ def create_model(vocab_Size, seq_Len):
 
 model = create_model(vocabulary_size+ 1, seq_len)
 
-from pickle import dump, load
+from pickle import dump
 
 model.fit(X,y,batch_size = 128, verbose=2, epochs=3)
 
